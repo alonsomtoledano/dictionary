@@ -1,0 +1,48 @@
+.SearchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 10px;
+}
+
+.Search {
+    margin-right: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 29px;
+}
+
+.SearchButton {
+    display: flex;
+    justify-content: center;
+
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+    transition-duration: 0.4s;
+    border-style: inset;
+    border-width: 2px;
+}
+
+.SearchButton:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.Definitions {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.Sinonimos {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.Antonimos {
+    padding-left: 20px;
+    padding-top: 10px;
+}
